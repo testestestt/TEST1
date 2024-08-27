@@ -1,0 +1,94 @@
+/*
+    TestTestTest [Template - Root] 2024
+    Description: Congrats on starting a new project! This is the main root of stylesheet for TestTestTest Projects
+    Version: 1.0
+
+    TestTestTest was here.
+    If you're reading this, you're a nerd.
+*/
+
+/*
+Table of Contents
+-----------------
+1. Normalize
+2. Global
+3. Pages
+   3.1 Home Page 
+*/
+
+// 1. Normalize
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    @include body-text;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $black;
+}
+
+a:not([href]):not([tabindex]){
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    &:hover {
+      color          : inherit;
+      text-decoration: none;
+    }
+}
+  
+::placeholder {
+    color: $placeholder-color;
+}
+
+.h1,
+.h1,
+.h2,
+.h3,w
+.h4,
+.h5,
+.h6,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin-bottom: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+button{
+    border: none;
+}
+
+input{
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+#container-3d{
+    aspect-ratio: 1/1;
+    background-color: $black;
+    color: $white;
+}
+
+.vh-100{
+    height: 100vh;
+}
+

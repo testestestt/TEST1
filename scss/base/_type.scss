@@ -1,0 +1,9 @@
+@mixin body-text{
+    font-family: $font-body;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.body-text, p{
+    @include body-text;
+}

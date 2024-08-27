@@ -1,0 +1,42 @@
+/*
+    TestTestTest [Template - Style] 2024
+    Description: Congrats on starting a new project! This is the main stylesheet for TestTestTest Projects
+    Command: sass --watch ./scss/style.scss ./css/style.css
+    Version: 1.0
+
+    P.S. TestTestTest was here.
+*/
+
+
+// Frameworks
+$ignore-deprecation-warnings: true;
+@import "../vendor/bootstrap/bootstrap";
+
+// Variables
+@import "./base/variables";
+
+// Fonts and Types
+@import "./base/fonts";
+@import "./base/type";
+
+// Root
+@import "./base/root";
+
+// Base
+@import "./base/mixins";
+@import "./base/spacing";
+@import "./base/modifiers";
+@import "./base/animation";
+
+// Components
+@import "./components/accordions";
+@import "./components/buttons";
+@import "./components/cards";
+@import "./components/contact";
+@import "./components/footer";
+@import "./components/forms";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/loader";
+@import "./components/tags";
+@import "./components/thumbnails";

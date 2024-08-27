@@ -1,0 +1,23 @@
+{
+  "name": "boilerplattte",
+  "version": "1.0.1",
+  "description": "Test Test Test boilerplate for init a new project",
+  "scripts": {
+    "build": "gulp watch"
+  },
+  "author": "Test Test Test",
+  "license": "No license",
+  "devDependencies": {
+    "cssnano": "^6.0.2",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.32"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^3.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.69.6"
+  }
+}
